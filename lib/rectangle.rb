@@ -10,7 +10,8 @@ class Rectangle
   end
 
   def perimeter
-    (@length * 2) + (@width * 2)
+    #(@length * 2) + (@width * 2)
+    2 * (@length + @width) #refactored code
   end
 
 end
